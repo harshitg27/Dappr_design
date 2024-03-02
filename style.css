@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-optical-sizing: auto;
+}
+
+/* header section */
+
+#header{
+    background-color: #6F6AF7;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    font-size: 20px;
+    top: 0;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+.nav_icon , .title{
+    width: 10%;
+    padding: 2%;
+}
+.nav_icon{
+    text-align: right;
+}
+#nabvar{
+    width: 70%;
+    padding: 0 5% ;
+}
+.horizontal-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin-right: 10px; */
+}
+/* .horizontal-list li{
+    margin-left: 10px;
+} */
+.search-bar {
+	width: 100%;
+	position: relative;
+}
+/* changing the default style of the input bar */
+.search-bar input {
+	width: 100%;
+	font-size: 16px;
+	text-decoration: none;
+	border-radius: 18px;
+	border: none;
+	padding: 5px;
+	font-weight: 500;
+    padding-left: 10px;
+	transition: all ease-in-out 0.1s;
+}
+
+/* search icon for input bar */
+
+.search-ico {
+    width: 12px;
+}
+/* mic icon for input */
+.mic-ico {
+    width: 12px;
+}
+/* search icon */
+.search-bar > div:nth-child(2) {
+	display: inline-block;
+	position: absolute;
+	width: min-content;
+	right: 5%;
+	top: 25%;
+	transition: all ease-in-out 0.1s;
+}
+
+/* body section */
+
+main{
+    padding: 20vh 10vw;
+    padding-bottom: 5vh;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+.developer_tools{
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.developer_tools div{
+    margin: 10px;
+}
+
+#developer_img{
+    height: 100%;
+}
+
+#developer_note{
+    width: 50vw;
+    height: 100%;
+    border-style: none;
+    background-color: #E5D8FF;
+    border-radius: 8px;
+    padding: 10px;
+    resize: none;
+}
+
+/* second section */
+
+.participate{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 8vh;
+}
+
+.box{
+    width: 17vw;
+    height: 13vh;
+    margin: 0px 15px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 15px;
+}
+
+#box1{
+    background-color: #929DFF;
+}
+
+#box2{
+    background-color: #734CF2;
+}
+
+#box3{
+    background-color: #D288FF;
+}
+
+#box4{
+    background-color: #000000;
+}
+
+/* 3rd section */
+.details{
+    height: 60vh;
+    width: 100%;
+    background-color: #483EFF;
+    border-radius: 5px;
+    margin-top: 15vh;
+    margin-left: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 35%;
+    color: white;
+
+}
+
+.div1 div{
+    width: 60%;
+    height: 15%;
+    border: 2px solid white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.selected{
+    color: black;
+    background-color: #BCE0F6;
+}
+
+.div2{
+    width: 60%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 35px 25px;
+    position: relative;
+}
+
+.div2 h2{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    
+}
+.div2 div{
+    margin-left: 20px;
+    margin-top: 25px;
+    line-height: 32px;
+    font-family: "Roboto", sans-serif;
+}
+
+#next_button{
+    background-color: #000000;
+    color: white;
+    width: 15%;
+    height: 9%;
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    padding: 5px;
+    text-align: center;
+    right: 15px;
+    bottom: 10px;
+    border-radius: 5px;
+}
+
+
+
+/* social media icons */
+
+.socialmedia{
+    position: sticky;
+    float: right;
+    top: 85px;
+    margin-top: 250px;
+}
+
+.socialmedia img{
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.chat_icon{
+    position: fixed;
+    bottom: 0px;
+    right: 40px;
+}
+
+.chat_icon img{
+    height: 100px;
+    width: 100px;
+}
+
+ul{
+    list-style: none;
+}
